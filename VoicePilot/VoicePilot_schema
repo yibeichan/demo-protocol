@@ -8,8 +8,8 @@
     "schema:description": "activity set for UW MIT Voice Pilot Protocol",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "landingPage": "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/protocols/VoicePilot/README.md",
-    "schema:image": "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/protocols/VoicePilot/mit_voice_pilot_applet_image.svg?sanitize=true",
+    "landingPage": "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/README.md",
+    "schema:image": "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/mit_voice_pilot_applet_image.svg?sanitize=true",
     "ui": {
         "addProperties": [
                 {"isAbout": "VoiceScreening_schema",
