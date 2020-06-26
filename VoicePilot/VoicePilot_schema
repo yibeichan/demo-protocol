@@ -1,6 +1,6 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/protocols/VoicePilot/VoicePilot_context"
+        "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/VoicePilot_context"
     ],
     "@type": "reproschema:Protocol",
     "@id": "VoicePilot_schema",
