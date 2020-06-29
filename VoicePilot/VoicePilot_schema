@@ -66,6 +66,6 @@
             "Thankyou_schema"
         ],
         "shuffle": false,
-        "allow": ["autoAdvance", "disableBack", "allowExport"]
+        "allow": ["reproschema:AutoAdvance", "reproschema:DisableBack", "reproschema:AllowExport"]
     }
 }
