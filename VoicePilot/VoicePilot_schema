@@ -1,6 +1,9 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
-        "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/VoicePilot_context"
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/",
+            "rs": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/"
+        }
     ],
     "@type": "reproschema:Protocol",
     "@id": "VoicePilot_schema",
@@ -12,58 +15,48 @@
     "schema:image": "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/mit_voice_pilot_applet_image.svg?sanitize=true",
     "ui": {
         "addProperties": [
-                {"isAbout": "VoiceScreening_schema",
-                "variableName": "VoiceScreening_schema",
-                "prefLabel": {"en": "Screening"}
-                },
-                {"isAbout": "VoiceConsent_schema",
+                {"isAbout": "rl:VoiceConsent/VoiceConsent_schema",
                 "variableName": "VoiceConsent_schema",
                 "prefLabel": {"en": "Consent"}
                 },
-                {"isAbout": "VoiceDemographics_schema",
-                "variableName": "VoiceDemographics_schema",
-                "prefLabel": {"en": "Demographics"}
-                },
-                {"isAbout": "PROMISGlobalHealth_schema",
+                {"isAbout": "rl:PROMISGlobalHealth/PROMISGlobalHealth_schema",
                 "variableName": "PROMISGlobalHealth_schema",
                 "prefLabel": {"en": "Health"}
                 },
-                {"isAbout": "GAD7_schema",
+                {"isAbout": "rl:GAD7/GAD7_schema",
                 "variableName": "GAD7_schema",
                 "prefLabel": {"en": "Anxiety"}
                 },
-                {"isAbout": "CageAid_schema",
+                {"isAbout": "rl:CageAid/CageAid_schema",
                 "variableName": "CageAid_schema",
                 "prefLabel": {"en": "Substance use"}
                 },
-                {"isAbout": "BADS_schema",
+                {"isAbout": "rl:BADS/BADS_schema",
                 "variableName": "BADS_schema",
                 "prefLabel": {"en": "Behavior"}
                 },
-                {"isAbout": "OtherQuestions_schema",
+                {"isAbout": "rl:MiscellaneousQuestions/OtherQuestions_schema",
                 "variableName": "OtherQuestions_schema",
                 "prefLabel": {"en": "Other Questions" }
                 },
-                {"isAbout": "VoiceTask_schema",
+                {"isAbout": "rl:VoiceTask/VoiceTask_schema",
                 "variableName": "VoiceTask_schema",
                 "prefLabel": {"en": "Voice Tasks"}
                 },
-                {"isAbout": "Thankyou_schema",
+                {"isAbout": "rl:ThankYou/Thankyou_schema",
                 "variableName": "Thankyou_schema",
                 "prefLabel": {"en": "ThankYou"}
                 }
         ],
         "order": [
-            "VoiceScreening_schema",
-            "VoiceConsent_schema",
-            "VoiceTask_schema",
-            "VoiceDemographics_schema",
-            "PROMISGlobalHealth_schema",
-            "GAD7_schema",
-            "CageAid_schema",
-            "BADS_schema",
-            "OtherQuestions_schema",
-            "Thankyou_schema"
+            "rl:VoiceConsent/VoiceConsent_schema",
+            "rl:VoiceTask/VoiceTask_schema",
+            "rl:PROMISGlobalHealth/PROMISGlobalHealth_schema",
+            "rl:GAD7/GAD7_schema",
+            "rl:CageAid/CageAid_schema",
+            "rl:BADS/BADS_schema",
+            "rl:MiscellaneousQuestions/OtherQuestions_schema",
+            "rl:ThankYou/Thankyou_schema"
         ],
         "shuffle": false,
         "allow": ["reproschema:AutoAdvance", "reproschema:DisableBack", "reproschema:AllowExport"]
