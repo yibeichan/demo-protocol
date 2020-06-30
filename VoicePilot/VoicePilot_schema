@@ -1,8 +1,7 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/refactor-1.0/contexts/generic",
         {
-            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/",
-            "rs": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/"
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
         }
     ],
     "@type": "reproschema:Protocol",
@@ -11,8 +10,11 @@
     "schema:description": "activity set for UW MIT Voice Pilot Protocol",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
-    "landingPage": "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/README.md",
-    "schema:image": "https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/mit_voice_pilot_applet_image.svg?sanitize=true",
+    "landingPage": {
+        "@id": "README.md",
+        "@language": "en"
+    },
+    "schema:image": "mit_voice_pilot_applet_image.svg?sanitize=true",
     "ui": {
         "addProperties": [
                 {"isAbout": "rl:VoiceConsent/VoiceConsent_schema",
