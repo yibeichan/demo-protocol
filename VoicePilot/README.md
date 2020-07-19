@@ -55,7 +55,7 @@
     <img style="transform: scale(0.7); padding-bottom: 1rem" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/create_your_story.svg" alt="create-story"/>
   </div>
   <div class="text">
-    <h3>Details about this protocol/h3>
+    <h3>Details about this protocol</h3>
     <p>
     To go through the protocol hit the Join button. It will take you through a 
     consent process and then make sure you have understood the consent. Once you 
