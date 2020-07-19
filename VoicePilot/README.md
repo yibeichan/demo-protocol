@@ -57,7 +57,7 @@
   <div class="text">
     <h3>Details about this protocol/h3>
     <p>
-    To go through the protocol hit the Start button. It will take you through a 
+    To go through the protocol hit the Join button. It will take you through a 
     consent process and then make sure you have understood the consent. Once you 
     are deemed eligible the rest of the questionnaires will appear.
     </p>
