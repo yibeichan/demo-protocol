@@ -52,7 +52,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="padding-top: 1.5rem" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/create_your_story.svg" alt="create-story"/>
+    <img style="transform: scale(0.7); padding-bottom: 1rem" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/create_your_story.svg" alt="create-story"/>
   </div>
   <div class="text">
     <h3>Details about this protocol/h3>
