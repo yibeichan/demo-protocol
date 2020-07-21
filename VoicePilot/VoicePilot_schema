@@ -17,6 +17,10 @@
     "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
     "ui": {
         "addProperties": [
+            {"isAbout": "../activities/Screening/Screening_schema",
+            "variableName": "Screening_schema",
+            "prefLabel": {"en": "Screening"}
+            },
             {"isAbout": "rl:VoiceConsent/VoiceConsent_schema",
             "variableName": "VoiceConsent_schema",
             "prefLabel": {"en": "Consent"}
@@ -59,6 +63,7 @@
             }
         ],
         "order": [
+            "../activities/Screening/Screening_schema"
             "rl:VoiceConsent/VoiceConsent_schema",
             "../activities/VoiceTask/VoiceTask_schema",
             "rl:PROMISGlobalHealth/PROMISGlobalHealth_schema",
