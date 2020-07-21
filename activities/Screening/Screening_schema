@@ -16,7 +16,7 @@
                 "variableName": "education_level",
                 "isVis": true
                 },
-                {"isAbout": "rl:PHQ-9/phq9_schema",
+                {"isAbout": "rl:PHQ-9/PHQ9_schema",
                 "variableName": "phq9_schema",
                 "isVis": "education_level === 1"
                 },
@@ -28,7 +28,7 @@
         ],
         "order": [
             "rl:demographics_and_background_information_v1/items/education_level",
-            "rl:PHQ-9/phq9_schema",
+            "rl:PHQ-9/PHQ9_schema",
             "rl:NDA/items/gender"
         ],
         "shuffle": false
