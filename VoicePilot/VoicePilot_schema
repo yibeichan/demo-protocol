@@ -63,7 +63,7 @@
             }
         ],
         "order": [
-            "../activities/Screening/Screening_schema"
+            "../activities/Screening/Screening_schema",
             "rl:VoiceConsent/VoiceConsent_schema",
             "../activities/VoiceTask/VoiceTask_schema",
             "rl:PROMISGlobalHealth/PROMISGlobalHealth_schema",
