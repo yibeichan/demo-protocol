@@ -8,7 +8,7 @@
     "@id": "Screening_schema",
     "prefLabel": "SCreening",
     "description": "example of nested activity",
-    "schemaVersion": "0.0.1",
+    "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
         "addProperties": [

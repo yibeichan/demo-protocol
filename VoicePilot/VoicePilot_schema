@@ -7,9 +7,9 @@
     "@type": "reproschema:Protocol",
     "@id": "VoicePilot_schema",
     "prefLabel": "Demo protocol",
-    "schema:description": "Activity set for a Demonstration Protocol",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
+    "description": "Activity set for a Demonstration Protocol",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
     "landingPage": {
         "@id": "README.md",
         "@language": "en"
