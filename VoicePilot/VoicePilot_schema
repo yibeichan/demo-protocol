@@ -6,7 +6,10 @@
     ],
     "@type": "reproschema:Protocol",
     "@id": "VoicePilot_schema",
-    "prefLabel": "Demo protocol",
+    "prefLabel": {
+        "en": "Demo protocol",
+        "es": "Protocolo de demostración"
+    }
     "description": "Activity set for a Demonstration Protocol",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",

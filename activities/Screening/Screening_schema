@@ -6,7 +6,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "Screening_schema",
-    "prefLabel": "SCreening",
+    "prefLabel": "Screening",
     "description": "example of nested activity",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
