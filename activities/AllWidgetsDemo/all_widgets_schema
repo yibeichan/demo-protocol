@@ -1,0 +1,90 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "all_widgets_schema",
+    "prefLabel": "demo of all input types and widgets",
+    "description": "dummy activity to show all inputs types and widgets",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/radio_item",
+                "variableName": "radio_item",
+                "isVis": true
+                },
+                {"isAbout": "items/radio_item_multiple_choice",
+                "variableName": "radio_item_multiple_choice",
+                "isVis": true
+                },
+                {"isAbout": "items/select_item",
+                "variableName": "select_item",
+                "isVis": true
+                },
+                {"isAbout": "items/select_item_multiple_choice",
+                "variableName": "select_item_multiple_choice",
+                "isVis": true
+                },
+                {"isAbout": "items/slider_item",
+                "variableName": "slider_item",
+                "isVis": true
+                },
+                {"isAbout": "items/integer_item",
+                "variableName": "integer_item",
+                "isVis": true
+                },
+                {"isAbout": "items/time_range_item",
+                "variableName": "time_range_item",
+                "isVis": true
+                },
+                {"isAbout": "items/text_item",
+                "variableName": "text_item",
+                "isVis": true
+                },
+                {"isAbout": "items/email_item",
+                "variableName": "email_item",
+                "isVis": true
+                },
+                {"isAbout": "items/multitext_item",
+                "variableName": "multitext_item",
+                "isVis": true
+                },
+                {"isAbout": "items/language_item",
+                "variableName": "language_item",
+                "isVis": true
+                },
+                {"isAbout": "items/date_item",
+                "variableName": "date_item",
+                "isVis": true
+                },
+                {"isAbout": "items/participant_id_item",
+                "variableName": "participant_id_item",
+                "isVis": true
+                },
+                {"isAbout": "items/float_item",
+                "variableName": "float_item",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "items/radio_item",
+            "items/radio_item_multiple_choice",
+            "items/select_item",
+            "items/select_item_multiple_choice",
+            "items/slider_item",
+            "items/integer_item",
+            "items/time_range_item",
+            "items/text_item",
+            "items/email_item",
+            "items/multitext_item",
+            "items/language_item",
+            "items/date_item",
+            "items/float_item",
+            "items/participant_id_item"
+        ],
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
+    }
+}
