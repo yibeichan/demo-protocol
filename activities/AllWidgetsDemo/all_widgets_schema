@@ -63,6 +63,42 @@
                 {"isAbout": "items/float_item",
                 "variableName": "float_item",
                 "isVis": true
+                },
+                {"isAbout": "items/year_item",
+                "variableName": "year_item",
+                "isVis": true
+                },
+                {"isAbout": "items/country_item",
+                "variableName": "country_item",
+                "isVis": true
+                },
+                {"isAbout": "items/state_item",
+                "variableName": "state_item",
+                "isVis": true
+                },
+                {"isAbout": "items/sign_item",
+                "variableName": "sign_item",
+                "isVis": true
+                },
+                {"isAbout": "items/save_item",
+                "variableName": "save_item",
+                "isVis": true
+                },
+                {"isAbout": "items/document_upload_item",
+                "variableName": "document_upload_item",
+                "isVis": true
+                },
+                {"isAbout": "items/read_only_item",
+                "variableName": "read_only_item",
+                "isVis": true
+                },
+                {"isAbout": "items/static_item",
+                "variableName": "static_item",
+                "isVis": true
+                },
+                {"isAbout": "items/audio_check_item",
+                "variableName": "audio_check_item",
+                "isVis": true
                 }
         ],
         "order": [
@@ -70,16 +106,26 @@
             "items/radio_item_multiple_choice",
             "items/select_item",
             "items/select_item_multiple_choice",
-            "items/slider_item",
+            "items/country_item",
+            "items/language_item",
+            "items/state_item",
             "items/integer_item",
+            "items/year_item",
+            "items/date_item",
             "items/time_range_item",
             "items/text_item",
-            "items/email_item",
             "items/multitext_item",
-            "items/language_item",
-            "items/date_item",
+            "items/email_item",
+            "items/participant_id_item",
+            "items/sign_item",
+            "items/document_upload_item",
+            "items/save_item",
+            "items/read_only_item",
+            "items/static_item",
+            "items/audio_check_item",
             "items/float_item",
-            "items/participant_id_item"
+            "items/slider_item"
+            
         ],
         "shuffle": false,
         "allow": [
