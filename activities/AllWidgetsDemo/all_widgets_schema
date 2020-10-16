@@ -112,7 +112,12 @@
                 {"isAbout": "items/audio_image_record_item",
                 "variableName": "audio_image_record_item",
                 "isVis": true
+                },
+                {"isAbout": "items/audio_number_record_item",
+                "variableName": "audio_number_record_item",
+                "isVis": true
                 }
+                
         ],
         "order": [
             "items/radio_item",
@@ -140,7 +145,8 @@
             "items/static_item",
             "items/float_item",
             "items/slider_item",
-            "items/read_only_item"
+            "items/read_only_item",
+            "items/audio_number_record_item"
         ],
         "shuffle": false,
         "allow": [
