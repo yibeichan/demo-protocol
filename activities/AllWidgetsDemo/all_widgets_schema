@@ -4,6 +4,7 @@
     "@id": "all_widgets_schema",
     "prefLabel": "demo of all input types and widgets",
     "description": "dummy activity to show all inputs types and widgets",
+    "preamble": "This activity will show you all the different input type and widgets currently available.",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
@@ -99,6 +100,18 @@
                 {"isAbout": "items/audio_check_item",
                 "variableName": "audio_check_item",
                 "isVis": true
+                },
+                {"isAbout": "items/audio_passage_record_item",
+                "variableName": "audio_passage_record_item",
+                "isVis": true
+                },
+                {"isAbout": "items/button_start_item",
+                "variableName": "button_start_item",
+                "isVis": true
+                },
+                {"isAbout": "items/audio_image_record_item",
+                "variableName": "audio_image_record_item",
+                "isVis": true
                 }
         ],
         "order": [
@@ -120,12 +133,14 @@
             "items/sign_item",
             "items/document_upload_item",
             "items/save_item",
-            "items/read_only_item",
-            "items/static_item",
+            "items/button_start_item",
             "items/audio_check_item",
+            "items/audio_passage_record_item",
+            "items/audio_image_record_item",
+            "items/static_item",
             "items/float_item",
-            "items/slider_item"
-            
+            "items/slider_item",
+            "items/read_only_item"
         ],
         "shuffle": false,
         "allow": [
