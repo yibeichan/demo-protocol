@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
         {
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
         }
@@ -11,7 +11,7 @@
         "es": "Protocolo de demostración"
     },
     "description": "Activity set for a Demonstration Protocol",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "landingPage": {
         "@id": "README.md",
