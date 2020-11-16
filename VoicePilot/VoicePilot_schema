@@ -65,6 +65,13 @@
             "prefLabel": {"en": "ThankYou"}
             }
         ],
+        "overrideProperties": [
+            {"isAbout": "rl:PHQ-9/items/phq9_9",
+            "variableName": "phq9_9",
+            "message": "<i> If this is how you feel, think about getting help. </i><br>There are people who can help 24/7 <br>Text the Crisis Text Line at 741741 <br>Or<br>Call the National Suicide Prevention Lifeline at 1-800-273-8255",
+            "showMessage": "phq9_9 > 0"
+            }
+        ],
         "order": [
             "../activities/Screening/Screening_schema",
             "rl:VoiceConsent/VoiceConsent_schema",
