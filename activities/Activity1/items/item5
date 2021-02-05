@@ -2,8 +2,8 @@
     "@context": "../../../contexts/generic",
     "@type": "reproschema:Field",
     "@id": "item1",
-    "prefLabel": "item3",
-    "description": "Q3 of example 1",
+    "prefLabel": "item5",
+    "description": "Q5 of example 1",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
