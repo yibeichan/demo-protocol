@@ -5,9 +5,9 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "Screening_schema",
+    "@id": "activity1_schema",
     "prefLabel": "Screening",
-    "description": "example of nested activity",
+    "description": "example of an activity",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "ui": {
@@ -27,9 +27,8 @@
 
         ],
         "order": [
-            "rl:demographics_and_background_information_v1/items/education_level",
-            "rl:PHQ-9/PHQ9_schema",
-            "rl:NDA/items/gender"
+            "item1",
+            "item2",
         ],
         "shuffle": false
     }
