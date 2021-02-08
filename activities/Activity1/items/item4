@@ -14,7 +14,7 @@
         "inputType": "date"
     },
     "responseOptions": {
-        "valueType": "xsd:date"
+        "valueType": "xsd:date",
         "maxValue" : 2021
     }
 }
