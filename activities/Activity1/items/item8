@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "preamble": {
         "en": "Please read the following poem.",
-        "es": "Poco interés o placer en hacer cosas"
+        "es": "Poco interés o placer en hacer cosas",
     "question": "The plates will still shift and the clouds will still spew. The sun will slowly rise and the moon will follow too. "
     },
     "ui": {
