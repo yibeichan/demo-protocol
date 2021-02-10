@@ -14,6 +14,6 @@
         "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:string"
+        "valueType": "xsd:float"
     }
 }
