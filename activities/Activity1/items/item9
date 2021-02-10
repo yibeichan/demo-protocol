@@ -3,18 +3,17 @@
     "@type": "reproschema:Field",
     "@id": "item1",
     "prefLabel": "item3",
-    "description": "Q4 of example 1",
+    "description": "Q9 of example 1",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
     "question": {
-        "en": "Please select a date:",
+        "en": "Please enter your name:",
         "es": "Poco interés o placer en hacer cosas"
     },
     "ui": {
-        "inputType": "date"
+        "inputType": "text"
     },
     "responseOptions": {
-        "valueType": "xsd:date",
-        "maxValue" : 2021
+        "valueType": "xsd:string"
     }
 }
