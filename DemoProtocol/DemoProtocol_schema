@@ -18,8 +18,8 @@
 	"ui": {
 		"addProperties": [
 			{
-				"isAbout": "../activities/activity1.jsonld",
-				"variableName": "activity1",
+				"isAbout": "../activities/Activity1/activity1_schema",
+				"variableName": "activity1_schema",
 				"prefLabel": {
 					"en": "Activity 1",
 					"es": "Activity_es"

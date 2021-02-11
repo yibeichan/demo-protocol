@@ -12,29 +12,48 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "rl:demographics_and_background_information_v1/items/education_level",
-                "variableName": "education_level",
+                {"isAbout": "items/item1",
+                "variableName": "item1",
                 "isVis": true
                 },
-                {"isAbout": "rl:PHQ-9/PHQ9_schema",
-                "variableName": "phq9_schema",
-                "isVis": "education_level === 1"
+                {"isAbout": "items/item2",
+                "variableName": "item2",
+                "isVis": true
                 },
-                {"isAbout": "rl:NDA/items/gender",
-                "variableName": "gender",
-                "isVis": "education_level === 1"
+              {"isAbout": "items/item3",
+                "variableName": "item3",
+                "isVis": true
+                },
+               {"isAbout": "items/item4",
+                "variableName": "item4",
+                "isVis": true
+                },
+               {"isAbout": "items/item5",
+                "variableName": "item5",
+                "isVis": true
+                },
+              {"isAbout": "items/item6",
+                "variableName": "item6",
+                "isVis": true
+                },
+              {"isAbout": "items/item7",
+                "variableName": "item7",
+                "isVis": true
+                },
+              {"isAbout": "items/item8",
+                "variableName": "item8",
+                "isVis": true
                 }
-
         ],
         "order": [
-            "item1",
-            "item2",
-            "item3",
-            "item4",
-            "item5",
-            "item6",
-            "item7",
-            "item8"
+            "items/item1",
+            "items/item2",
+            "items/item3",
+            "items/item4",
+            "items/item5",
+            "items/item6",
+            "items/item7",
+            "items/item8"
         ],
         "shuffle": false
     }
