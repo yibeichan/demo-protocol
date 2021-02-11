@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "item1",
-    "prefLabel": "item3",
+    "prefLabel": "item8",
     "description": "Q8 of example 1",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "preamble": {
-        "en": "Please read the following poem.",
-        "es": "Poco interés o placer en hacer cosas",
-    "question": "The plates will still shift and the clouds will still spew. The sun will slowly rise and the moon will follow too."
-    },
+      "preamble": "Please read the following poem out loud.",
+    "question":"Whose woods these are I think I know.<br>His house is in the village though;<br>He will not see me stopping here<br>To watch his woods fill up with snow.",
+
+
     "ui": {
         "inputType": "audioPassageRecord"
     },
     "responseOptions": {
-        "valueType": "schema:audioObject",
-        "minValue" : 0,
-        "maxValue" : 120000,
-        "multipleChoice": false
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 30000
     }
 }
