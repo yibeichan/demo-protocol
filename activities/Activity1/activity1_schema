@@ -47,6 +47,18 @@
                 {"isAbout": "items/item9",
                 "variableName": "item9",
                 "isVis": true
+                },
+              {"isAbout": "items/item10",
+                "variableName": "item10",
+                "isVis": true
+                },
+              {"isAbout": "items/item11",
+                "variableName": "item11",
+                "isVis": true
+                },
+              {"isAbout": "items/item12",
+                "variableName": "item12",
+                "isVis": true
                 }
         ],
         "order": [
@@ -58,7 +70,10 @@
             "items/item6",
             "items/item7",
             "items/item8",
-            "items/item9"
+            "items/item9",
+            "items/item10",
+            "items/item11",
+            "items/item12"
         ],
         "shuffle": false
     }

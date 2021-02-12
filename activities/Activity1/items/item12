@@ -1,20 +1,18 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "item4",
-    "prefLabel": "item4",
-    "description": "Q4 of example 1",
+    "@id": "item11",
+    "prefLabel": "item11",
+    "description": "Q11 of example 1",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": {
-        "en": "Please select a date:",
-        "es": "Poco interés o placer en hacer cosas"
-    },
     "ui": {
         "inputType": "date"
     },
     "responseOptions": {
-        "valueType": "xsd:date",
-        "maxValue" : 2021
+        "valueType": "xsd:date"
+    },
+    "question": {
+        "en": "What is the date of your last doctor's appointment?"
     }
 }

@@ -1,8 +1,8 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "item1",
-    "prefLabel": "item3",
+    "@id": "item6",
+    "prefLabel": "item6",
     "description": "Q6 of example 1",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
@@ -16,7 +16,7 @@
     "responseOptions": {
         "valueType": "audioRecord",
         "minValue" : 0,
-        "maxValue" : 5000,
+        "maxValue" : 50000,
         "multipleChoice": false
     }
 }
