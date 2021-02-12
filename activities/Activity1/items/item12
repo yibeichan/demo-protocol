@@ -6,13 +6,11 @@
     "description": "Q12 of example 1",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
+    "question": "Sign the consent document",
     "ui": {
-        "inputType": "date"
+        "inputType": "sign"
     },
     "responseOptions": {
-        "valueType": "xsd:date"
-    },
-    "question": {
-        "en": "What was the date of your most recent doctor's appointment?"
+        "valueType": "xsd:string"
     }
 }
