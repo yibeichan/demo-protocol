@@ -15,7 +15,8 @@
     },
     "responseOptions": {
         "valueType": "schema:AudioObject",
-        "minValue": 0,
-        "maxValue": 4000
+        "minValue" : 0,
+        "maxValue" : 5000,
+        "multipleChoice": false
     }
 }
