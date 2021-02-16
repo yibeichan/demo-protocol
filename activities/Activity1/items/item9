@@ -6,14 +6,14 @@
     "description": "Q9 of example 1",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": {
-        "en": "Please enter a number:",
-        "es": "Poco interés o placer en hacer cosas"
-    },
+     "question": "Look at the map in the image below, and give directions to another person over the phone as to how you would follow the route from Start to Stop, using the landmarks.",
+    "image": "https://www.dropbox.com/s/wgtjq3bgqlfhbzd/map3g.png?raw=1",
     "ui": {
-        "inputType": "number"
+        "inputType": "audioImageRecord"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 90000
     }
 }

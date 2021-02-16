@@ -10,5 +10,5 @@
     "ui": {
         "inputType": "slider"
     },
-    "responseOptions": "../valueConstraints"
+    "responseOptions": "activities/Activity1/items/activity1_valueschema"
 }

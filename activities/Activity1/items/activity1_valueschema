@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "bads_category",
+    "prefLabel": "Activity Category",
+    "description": "schema for score category",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "text",
+        "readonlyValue": true
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": "minimal"
+            },
+            {
+                "name": "mild"
+            },
+            {
+                "name": "moderate"
+            },
+            {
+                "name": "moderately severe"
+            },
+            {
+                "name": "severe"
+            }
+        ]
+    }
+}
