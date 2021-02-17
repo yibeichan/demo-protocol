@@ -2,17 +2,15 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "item11",
-    "prefLabel": "item11",
-    "description": "Q11 of example 1",
+    "prefLabel": "item12",
+    "description": "Q12 of example 1",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "question": "Country of birth (as in birth certificate)",
+    "question": "Sign the consent document",
     "ui": {
-        "inputType": "selectCountry"
+        "inputType": "sign"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 50,
-        "choices": "https://raw.githubusercontent.com/samayo/country-json/master/src/country-by-name.json"
+        "valueType": "xsd:string"
     }
 }
