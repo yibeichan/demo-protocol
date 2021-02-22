@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "item12",
+    "prefLabel": "item12",
+    "description": "Q12 of example 1",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+       "question": {
+        "en": "Little interest or pleasure in doing things",
+        "es": "Poco inter\u00e9s o placer en hacer cosas"
+    },
+    "ui": {
+        "inputType": "slider"
+        "min value": 0,
+        "max value": 4,
+        "multiple choice": false
+    },
+       "responseOptions": {
+        "choices": [
+            {
+             "name": {
+                "en": "Minimal",
+                "es": "Para nada"
+            },
+            "value": 0
+        },
+        {
+            "name": {
+                "en": "Mild",
+                "es": "Varios días"
+            },
+            "value": 1
+        },
+        {
+            "name": {
+                "en": "Moderate",
+                "es": "Más de la mitad de los días"
+            },
+            "value": 2
+        },
+        {
+            "name": {
+                "en": "Severe",
+                "es": "Casi todos los días"
+            },
+            "value": 3
+        }
+        ]
+    },
