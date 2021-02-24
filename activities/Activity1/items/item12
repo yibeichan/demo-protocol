@@ -12,11 +12,11 @@
     },
     "ui": {
         "inputType": "radio"
-        "min value": 0,
-        "max value": 4,
-        "multiple choice": false
     },
        "responseOptions": {
+       "minValue": 0,
+        "maxValue": 3,
+        "multipleChoice": false,
         "choices": [
             {
              "name": {
@@ -47,4 +47,6 @@
             "value": 3
         }
         ]
-    },
+
+       }
+}
