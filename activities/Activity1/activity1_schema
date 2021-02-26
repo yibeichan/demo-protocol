@@ -1,0 +1,81 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "activity1_schema",
+    "prefLabel": "Screening",
+    "description": "example of an activity",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/item1",
+                "variableName": "item1",
+                "isVis": true
+                },
+                {"isAbout": "items/item2",
+                "variableName": "item2",
+                "isVis": true
+                },
+              {"isAbout": "items/item3",
+                "variableName": "item3",
+                "isVis": true
+                },
+               {"isAbout": "items/item4",
+                "variableName": "item4",
+                "isVis": true
+                },
+               {"isAbout": "items/item5",
+                "variableName": "item5",
+                "isVis": true
+                },
+              {"isAbout": "items/item6",
+                "variableName": "item6",
+                "isVis": true
+                },
+              {"isAbout": "items/item7",
+                "variableName": "item7",
+                "isVis": true
+                },
+              {"isAbout": "items/item8",
+                "variableName": "item8",
+                "isVis": true
+                },
+                {"isAbout": "items/item9",
+                "variableName": "item9",
+                "isVis": true
+                },
+              {"isAbout": "items/item10",
+                "variableName": "item10",
+                "isVis": true
+                },
+              {"isAbout": "items/item11",
+                "variableName": "item11",
+                "isVis": true
+                },
+              {"isAbout": "items/item12",
+                "variableName": "item12",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "items/item1",
+            "items/item2",
+            "items/item3",
+            "items/item4",
+            "items/item5",
+            "items/item6",
+            "items/item7",
+            "items/item8",
+            "items/item9",
+            "items/item10",
+            "items/item11",
+            "items/item12",
+            "items/item13"
+        ],
+        "shuffle": false
+    }
+}
