@@ -104,12 +104,12 @@
                 "variableName": "audio_check_item",
                 "isVis": true
                 },
-                {"isAbout": "items/audio_passage_record_item",
-                "variableName": "audio_passage_record_item",
+                {"isAbout": "items/audio_record_item",
+                "variableName": "audio_record_item",
                 "isVis": true
                 },
-                {"isAbout": "items/button_start_item",
-                "variableName": "button_start_item",
+                {"isAbout": "items/audio_passage_record_item",
+                "variableName": "audio_passage_record_item",
                 "isVis": true
                 },
                 {"isAbout": "items/audio_image_record_item",
