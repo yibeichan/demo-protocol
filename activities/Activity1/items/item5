@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "item5",
+    "prefLabel": "item5",
+    "description": "Q5 of example 1",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": {
+        "en": "Please enter some text",
+        "es": "Poco interés o placer en hacer cosas"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength" : 500
+    }
+}

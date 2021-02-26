@@ -3,7 +3,7 @@
         <div style="
           height: 30vw;
           min-height: 15rem;
-          background-image: url(https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/about_the_study.svg);
+          background-image: url(https://raw.githubusercontent.com/ReproNim/demo-protocol/master/DemoProtocol/about_the_study.svg);
           background-position: center;
           background-size: contain;
           background-repeat: no-repeat">
@@ -24,7 +24,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="margin-bottom: -6px" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/about_the_study.svg" alt="about"/>
+    <img style="margin-bottom: -6px" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/DemoProtocol/about_the_study.svg" alt="about"/>
   </div>
   <div class="text" style="padding-top: 1rem">
     <h3>Additional Information about the protocol</h3>
@@ -38,7 +38,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="padding-top: 1.5rem" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/tell_your_story.svg" alt="tell-story"/>
+    <img style="padding-top: 1.5rem" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/DemoProtocol/tell_your_story.svg" alt="tell-story"/>
   </div>
   <div class="text">
     <h3>More information</h3>
@@ -52,7 +52,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="transform: scale(0.7); padding-bottom: 1rem" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/create_your_story.svg" alt="create-story"/>
+    <img style="transform: scale(0.7); padding-bottom: 1rem" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/DemoProtocol/create_your_story.svg" alt="create-story"/>
   </div>
   <div class="text">
     <h3>Details about this protocol</h3>

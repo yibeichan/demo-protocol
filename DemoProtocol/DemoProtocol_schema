@@ -1,0 +1,46 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+	"@type": "reproschema:Protocol",
+	"@id": "DemoProtocol_schema",
+	"prefLabel": {
+		"en": "Protocol1",
+		"es": "Protocol1_es"
+	},
+	"description": "example Protocol",
+	"schemaVersion": "1.0.0-rc2",
+	"version": "0.0.1",
+	"landingPage": [{
+            "@id": "README.md",
+            "@language": "en"
+        }
+    ],
+	"messages": [
+		{
+			"message": "Test message: Triggered when item1 value is greater than 0",
+			"jsExpression": "item1 > 0"
+		}
+	],
+	"ui": {
+		"addProperties": [
+			{
+				"isAbout": "../activities/Activity1/activity1_schema",
+				"variableName": "activity1_schema",
+				"prefLabel": {
+					"en": "Activity 1",
+					"es": "Activity_es"
+				},
+				"isVis": true,
+				"schedule": "R5/2008-01-01T13:00:00Z/P1Y2M10DT2H30M",
+				"randomMaxDelay": "PT12H",
+				"limit": "P1W/2020-08-01T13:00:00Z"
+			}
+		],
+		"order": [
+			"../activities/Activity1/activity1_schema"
+		],
+		"shuffle": false,
+		"allow": [
+			"reproschema:AllowExport"
+		]
+	}
+}
