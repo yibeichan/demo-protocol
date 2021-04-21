@@ -123,6 +123,7 @@
 
         ],
         "order": [
+            "items/slider_item",
             "items/radio_item",
             "items/radio_item_multiple_choice",
             "items/select_item",
@@ -132,7 +133,6 @@
             "items/state_item",
             "items/integer_item",
             "items/float_item",
-            "items/slider_item",
             "items/year_item",
             "items/date_item",
             "items/time_range_item",
