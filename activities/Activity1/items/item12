@@ -11,7 +11,7 @@
         "es": "Poco inter\u00e9s o placer en hacer cosas"
     },
     "ui": {
-        "inputType": "radio"
+        "inputType": "integer"
     },
        "responseOptions": {
        "minValue": 0,

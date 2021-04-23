@@ -15,8 +15,8 @@
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 1,
-        "maxValue": 6,
+        "minValue": 0,
+        "maxValue": 3,
         "multipleChoice": true,
         "choices": [
         {

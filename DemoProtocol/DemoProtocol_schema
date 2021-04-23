@@ -21,23 +21,35 @@
 		}
 	],
 	"ui": {
-		"addProperties": [
-			{
-				"isAbout": "../activities/Activity1/activity1_schema",
-				"variableName": "activity1_schema",
-				"prefLabel": {
-					"en": "Activity 1",
-					"es": "Activity_es"
-				},
-				"isVis": true,
-				"schedule": "R5/2008-01-01T13:00:00Z/P1Y2M10DT2H30M",
-				"randomMaxDelay": "PT12H",
-				"limit": "P1W/2020-08-01T13:00:00Z"
-			}
-		],
-		"order": [
-			"../activities/Activity1/activity1_schema"
-		],
+        "addProperties": [
+            {"isAbout": "../activities/Activity2/Activity2_schema",
+            "variableName": "Baseline_schema",
+            "prefLabel": {"en": "Baseline Voice Testing"}
+            },
+            {"isAbout": "../activities/Activity3/Activity3_schema",
+            "variableName": "Activity3_schema",
+            "prefLabel": {"en": "Mode Testing (with App)"}
+            },
+            {"isAbout": "../activities/Activity4/Activity4_schema",
+            "variableName": "Activity4_schema",
+            "prefLabel": {"en": "Post-Testing Interview"}
+            },
+            {"isAbout": "../activities/selectActivity/selectActivity_schema",
+            "variableName": "selectActivity_schema",
+            "prefLabel": {"en": "Post-Testing Interview"}
+            },
+            {"isAbout": "../activities/voiceActivity/voiceActivity_schema",
+            "variableName": "voiceActivity_schema",
+            "prefLabel": {"en": "Post-Testing Interview"}
+            }
+        ],
+    "order": [
+            "../activities/Activity2/Activity2_schema",
+            "../activities/Activity3/Activity3_schema",
+            "../activities/Activity4/Activity4_schema",
+            "../activities/selectActivity/selectActivity_schema",
+            "../activities/voiceActivity/voiceActivity_schema"
+        ],
 		"shuffle": false,
 		"allow": [
 			"reproschema:AllowExport"
