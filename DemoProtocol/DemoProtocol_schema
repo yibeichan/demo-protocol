@@ -23,7 +23,7 @@
 	"ui": {
         "addProperties": [
             {"isAbout": "../activities/Activity2/Activity2_schema",
-            "variableName": "Baseline_schema",
+            "variableName": "Activity2_schema",
             "prefLabel": {"en": "Baseline Voice Testing"}
             },
             {"isAbout": "../activities/Activity3/Activity3_schema",
@@ -36,7 +36,7 @@
             },
             {"isAbout": "../activities/selectActivity/selectActivity_schema",
             "variableName": "selectActivity_schema",
-            "prefLabel": {"en": "Post-Testing Interview"}
+            "prefLabel": {"en": "Select Activity"}
             },
             {"isAbout": "../activities/voiceActivity/voiceActivity_schema",
             "variableName": "voiceActivity_schema",
