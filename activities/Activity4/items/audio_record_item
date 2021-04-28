@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "audio_record_item",
+    "prefLabel": "audio record item",
+    "description": "This is an audio record item.",
+    "schemaVersion": "1.0.0-rc2",
+    "version": "0.0.1",
+    "question": "This is an audio record item. Participant records themselves doing an audio task. For example, \"Click the Record button, take a deep breath and repeat the phrase \"pa-ta-ka\" as many times as you can <b>in one breath</b>\".",
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 60000
+    }
+}
