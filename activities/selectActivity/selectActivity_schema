@@ -11,20 +11,32 @@
         "addProperties": [
                 {"isAbout": "items/radio_item",
                 "variableName": "radio_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
                 {"isAbout": "items/radio_item_multiple_choice",
                 "variableName": "radio_item_multiple_choice",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
                 {"isAbout": "items/select_item",
                 "variableName": "select_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
           {
             "isAbout": "items/select_item_multiple_choice",
             "variableName": "select_item_multiple_choice",
-            "isVis": true
+            "isVis": true,
+            "allow": [
+                    "reproschema:Skipped"
+                ]
           }
                 
         ],
@@ -37,8 +49,7 @@
         "shuffle": false,
         "allow": [
 			"reproschema:AutoAdvance",
-			"reproschema:AllowExport",
-			"reproschema:Skipped"
+			"reproschema:AllowExport"
 		]
     }
 }

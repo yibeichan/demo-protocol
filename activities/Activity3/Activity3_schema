@@ -12,19 +12,31 @@
 
                 {"isAbout": "items/slider_item",
                 "variableName": "slider_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
                 {"isAbout": "items/integer_item",
                 "variableName": "integer_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
                 {"isAbout": "items/time_range_item",
                 "variableName": "time_range_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
                 {"isAbout": "items/email_item",
                 "variableName": "email_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 }
                 
         ],
@@ -37,8 +49,7 @@
         "shuffle": false,
         "allow": [
 			"reproschema:AutoAdvance",
-			"reproschema:AllowExport",
-			"reproschema:Skipped"
+			"reproschema:AllowExport"
 		]
     }
 }
