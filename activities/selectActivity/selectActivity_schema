@@ -49,8 +49,7 @@
         "shuffle": false,
         "allow": [
 			"reproschema:AutoAdvance",
-			"reproschema:AllowExport",
-			"reproschema:Skipped"
+			"reproschema:AllowExport"
 		]
     }
 }
