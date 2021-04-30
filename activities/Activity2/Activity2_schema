@@ -12,23 +12,38 @@
 
                 {"isAbout": "items/language_item",
                 "variableName": "language_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
                 {"isAbout": "items/date_item",
                 "variableName": "date_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
                 {"isAbout": "items/year_item",
                 "variableName": "year_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
                 {"isAbout": "items/country_item",
                 "variableName": "country_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 },
                 {"isAbout": "items/state_item",
                 "variableName": "state_item",
-                "isVis": true
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 }
                 
         ],
@@ -42,8 +57,7 @@
         "shuffle": false,
         "allow": [
 			"reproschema:AutoAdvance",
-			"reproschema:AllowExport",
-			"reproschema:Skipped"
+			"reproschema:AllowExport"
 		]
     }
 }
