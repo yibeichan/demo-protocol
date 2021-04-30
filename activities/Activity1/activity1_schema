@@ -40,7 +40,7 @@
             "items/read_only_item"
 
            ],
-        "shuffle": false
+        "shuffle": false,
         "allow": [
 			"reproschema:AutoAdvance",
 			"reproschema:AllowExport"
