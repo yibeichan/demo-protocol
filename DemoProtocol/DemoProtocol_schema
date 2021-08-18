@@ -48,6 +48,7 @@
             }
         ],
     "order": [
+	    "../activities/Activity1/Activity1_schema",
             "../activities/Activity2/Activity2_schema",
             "../activities/Activity3/Activity3_schema",
             "../activities/Activity4/Activity4_schema",
