@@ -16,7 +16,7 @@
                     "reproschema:Skipped"
                 ]
                 },
-                {"isAbout": "items/email_item",
+                {"isAbout": "../Activity3/items/email_item",
                 "variableName": "email_item",
                 "isVis": true,
                   "allow": [
