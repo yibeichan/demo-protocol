@@ -30,21 +30,27 @@
                     "reproschema:Skipped"
                 ]
                 },
-          {
-            "isAbout": "items/select_item_multiple_choice",
-            "variableName": "select_item_multiple_choice",
-            "isVis": true,
-            "allow": [
+                {"isAbout": "items/select_item_multiple_choice",
+                "variableName": "select_item_multiple_choice",
+                "isVis": true,
+                "allow": [
                     "reproschema:Skipped"
                 ]
-          }
-                
+                },
+                {"isAbout": "items/slider_item",
+                "variableName": "slider_item",
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
         ],
         "order": [
             "items/radio_item",
             "items/radio_item_multiple_choice",
             "items/select_item",
-            "items/select_item_multiple_choice"
+            "items/select_item_multiple_choice",
+            "items/slider_item"
         ],
         "shuffle": false,
         "allow": [
