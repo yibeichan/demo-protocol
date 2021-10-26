@@ -36,7 +36,7 @@
             },
             {"isAbout": "../activities/Activity4/Activity4_schema",
             "variableName": "Activity4_schema",
-            "prefLabel": {"en": "Sign Document"}
+            "prefLabel": {"en": "Sign Consent"}
             },
             {"isAbout": "../activities/selectActivity/selectActivity_schema",
             "variableName": "selectActivity_schema",
@@ -51,9 +51,9 @@
 	    "../activities/Activity1/activity1_schema",
             "../activities/Activity2/Activity2_schema",
             "../activities/Activity3/Activity3_schema",
-            "../activities/Activity4/Activity4_schema",
             "../activities/selectActivity/selectActivity_schema",
-            "../activities/voiceActivity/voiceActivity_schema"
+            "../activities/voiceActivity/voiceActivity_schema",
+            "../activities/Activity4/Activity4_schema"
         ],
 		"shuffle": false,
 		"allow": [
