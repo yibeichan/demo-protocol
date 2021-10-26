@@ -36,7 +36,7 @@
             },
             {"isAbout": "../activities/Activity4/Activity4_schema",
             "variableName": "Activity4_schema",
-            "prefLabel": {"en": "Activity 4"}
+            "prefLabel": {"en": "Sign Document"}
             },
             {"isAbout": "../activities/selectActivity/selectActivity_schema",
             "variableName": "selectActivity_schema",
