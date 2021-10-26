@@ -24,11 +24,11 @@
         "addProperties": [
             {"isAbout": "../activities/Activity1/activity1_schema",
             "variableName": "activity1_schema",
-            "prefLabel": {"en": "Activity 1"}
+            "prefLabel": {"en": "Activity 1: upload documents"}
             },
             {"isAbout": "../activities/Activity2/Activity2_schema",
             "variableName": "Activity2_schema",
-            "prefLabel": {"en": "Activity 2"}
+            "prefLabel": {"en": "Activity 2: select dropdown"}
             },
             {"isAbout": "../activities/Activity3/Activity3_schema",
             "variableName": "Activity3_schema",

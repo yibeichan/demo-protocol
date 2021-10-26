@@ -24,13 +24,6 @@
                     "reproschema:Skipped"
                 ]
                 },
-                {"isAbout": "items/time_range_item",
-                "variableName": "time_range_item",
-                "isVis": true,
-                  "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
                 {"isAbout": "items/email_item",
                 "variableName": "email_item",
                 "isVis": true,
@@ -42,7 +35,6 @@
         ],
         "order": [
             "items/integer_item",
-            "items/time_range_item",
             "items/email_item",
             "items/slider_item"
         ],
