@@ -43,7 +43,7 @@
                   "allow": [
                     "reproschema:Skipped"
                 ]
-                },
+                }
         ],
         "order": [
             "items/radio_item",

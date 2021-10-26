@@ -27,7 +27,7 @@
         ],
         "order": [
             "items/integer_item",
-            "items/email_item",
+            "items/email_item"
         ],
         "shuffle": false,
         "allow": [

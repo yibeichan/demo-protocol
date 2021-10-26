@@ -18,10 +18,10 @@
                 "allow": [
                     "reproschema:Skipped"
                 ]
-                },
+                }
          ],
         "order": [
-            "items/document_upload_item",
+            "items/document_upload_item"
             ],
         "shuffle": false,
         "allow": [
