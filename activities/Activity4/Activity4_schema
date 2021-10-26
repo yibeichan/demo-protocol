@@ -16,13 +16,6 @@
                     "reproschema:Skipped"
                 ]
                 },
-                {"isAbout": "../Activity3/items/email_item",
-                "variableName": "email_item",
-                "isVis": true,
-                  "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
                 {"isAbout": "items/participant_id_item",
                 "variableName": "participant_id_item",
                 "isVis": true,
@@ -63,7 +56,6 @@
         "order": [
             "items/text_item",
             "items/multitext_item",
-            "items/email_item",
             "items/participant_id_item",
             "items/sign_item",
             "items/save_item"
