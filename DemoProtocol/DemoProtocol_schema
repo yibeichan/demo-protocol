@@ -40,7 +40,7 @@
             },
             {"isAbout": "../activities/selectActivity/selectActivity_schema",
             "variableName": "selectActivity_schema",
-            "prefLabel": {"en": "Select Respone"}
+            "prefLabel": {"en": "Select Response"}
             },
             {"isAbout": "../activities/voiceActivity/voiceActivity_schema",
             "variableName": "voiceActivity_schema",
