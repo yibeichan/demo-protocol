@@ -35,7 +35,7 @@ jobs:
       run: |
         npm install -g jsonlint
         grep -r  "@context" activities | cut -d: -f1 | xargs -I fname jsonlint -q fname
-        grep -r  "@context" VoicePilot | cut -d: -f1 | xargs -I fname jsonlint -q fname
+        grep -r  "@context" DemoProtocol | cut -d: -f1 | xargs -I fname jsonlint -q fname
 
     # Validate the protocol
     - name: Set up Python 3.8

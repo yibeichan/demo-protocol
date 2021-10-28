@@ -24,23 +24,23 @@
         "addProperties": [
             {"isAbout": "../activities/Activity1/activity1_schema",
             "variableName": "activity1_schema",
-            "prefLabel": {"en": "Activity 1"}
+            "prefLabel": {"en": "Upload Documents"}
             },
             {"isAbout": "../activities/Activity2/Activity2_schema",
             "variableName": "Activity2_schema",
-            "prefLabel": {"en": "Activity 2"}
+            "prefLabel": {"en": "Select Dropdown"}
             },
             {"isAbout": "../activities/Activity3/Activity3_schema",
             "variableName": "Activity3_schema",
-            "prefLabel": {"en": "Activity 3"}
+            "prefLabel": {"en": "Enter Input"}
             },
             {"isAbout": "../activities/Activity4/Activity4_schema",
             "variableName": "Activity4_schema",
-            "prefLabel": {"en": "Activity 4"}
+            "prefLabel": {"en": "Sign Consent"}
             },
             {"isAbout": "../activities/selectActivity/selectActivity_schema",
             "variableName": "selectActivity_schema",
-            "prefLabel": {"en": "Select Activity"}
+            "prefLabel": {"en": "Select Response"}
             },
             {"isAbout": "../activities/voiceActivity/voiceActivity_schema",
             "variableName": "voiceActivity_schema",
@@ -51,9 +51,9 @@
 	    "../activities/Activity1/activity1_schema",
             "../activities/Activity2/Activity2_schema",
             "../activities/Activity3/Activity3_schema",
-            "../activities/Activity4/Activity4_schema",
             "../activities/selectActivity/selectActivity_schema",
-            "../activities/voiceActivity/voiceActivity_schema"
+            "../activities/voiceActivity/voiceActivity_schema",
+            "../activities/Activity4/Activity4_schema"
         ],
 		"shuffle": false,
 		"allow": [
