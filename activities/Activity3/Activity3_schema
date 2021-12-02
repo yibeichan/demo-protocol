@@ -63,6 +63,7 @@
             "items/integer_item",
             "items/float_item",
             "items/text_item",
+            "items/textarea_item",
             "items/multitext_item",
             "items/participant_id_item",
             "items/email_item"
