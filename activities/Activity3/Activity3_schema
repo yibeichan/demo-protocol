@@ -23,13 +23,20 @@
                     "reproschema:Skipped"
                 ]
                 },
-                                {"isAbout": "items/text_item",
+                {"isAbout": "items/text_item",
                 "variableName": "text_item",
                 "isVis": true,
                   "allow": [
                     "reproschema:Skipped"
                 ]
                 },
+                {"isAbout": "items/textarea_item",
+                  "variableName": "textarea_item",
+                  "isVis": true,
+                    "allow": [
+                      "reproschema:Skipped"
+                  ]
+                },                
                 {"isAbout": "items/participant_id_item",
                 "variableName": "participant_id_item",
                 "isVis": true,
@@ -56,6 +63,7 @@
             "items/integer_item",
             "items/float_item",
             "items/text_item",
+            "items/textarea_item",
             "items/multitext_item",
             "items/participant_id_item",
             "items/email_item"
