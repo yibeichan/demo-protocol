@@ -2,8 +2,6 @@
 
 name: CI
 
-env:
-  CHECKSUM:  8c5ca141a109ed3075b65c1da2691648e7fc8b16
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
@@ -26,7 +24,16 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+    # Install jq if it's not already available
+    - name: Install jq
+      run: sudo apt-get install jq
 
+    # Fetch the latest commit hash
+    - name: Get latest commit hash from reproschema-ui
+      run: |
+        LATEST_HASH=$(curl -s https://api.github.com/repos/ReproNim/reproschema-ui/commits/master | jq -r '.sha')
+        echo "CHECKSUM=$LATEST_HASH" >> $GITHUB_ENV
+    
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
