@@ -13,6 +13,7 @@
     "ui": {
         "addProperties": [
                 {"isAbout": "items/static_item",
+                "variableName": "static_item",
                 "isVis": true
                 },
                 {"isAbout": "items/document_upload_item",
