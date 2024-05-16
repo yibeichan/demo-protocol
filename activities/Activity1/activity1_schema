@@ -12,6 +12,9 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
+                {"isAbout": "items/static_item",
+                "isVis": true
+                },
                 {"isAbout": "items/document_upload_item",
                 "variableName": "document_upload_item",
                 "isVis": true,
@@ -21,11 +24,11 @@
                 }
          ],
         "order": [
+            "items/static_item",
             "items/document_upload_item"
             ],
         "shuffle": false,
         "allow": [
-			"reproschema:AutoAdvance",
 			"reproschema:AllowExport"
 		]
     }
