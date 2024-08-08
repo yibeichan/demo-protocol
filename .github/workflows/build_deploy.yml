@@ -31,7 +31,7 @@ jobs:
     # Fetch the latest commit hash
     - name: Get latest commit hash from reproschema-ui
       run: |
-        LATEST_HASH=$(curl -s https://api.github.com/repos/ReproNim/reproschema-ui/commits/master | jq -r '.sha')
+        LATEST_HASH=$(curl -s https://api.github.com/repos/ReproNim/reproschema-ui/commits/main | jq -r '.sha')
         echo "CHECKSUM=${LATEST_HASH}" >> "$GITHUB_ENV"
     
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
