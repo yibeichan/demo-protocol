@@ -1,5 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
         {
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
         }
@@ -8,10 +8,14 @@
     "@id": "activity1_schema",
     "prefLabel": "Screening",
     "description": "example of an activity",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
+                {"isAbout": "items/static_item",
+                "variableName": "static_item",
+                "isVis": true
+                },
                 {"isAbout": "items/document_upload_item",
                 "variableName": "document_upload_item",
                 "isVis": true,
@@ -21,11 +25,11 @@
                 }
          ],
         "order": [
+            "items/static_item",
             "items/document_upload_item"
             ],
         "shuffle": false,
         "allow": [
-			"reproschema:AutoAdvance",
 			"reproschema:AllowExport"
 		]
     }

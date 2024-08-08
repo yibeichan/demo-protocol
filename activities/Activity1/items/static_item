@@ -1,0 +1,16 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Field",
+    "@id": "static_item",
+    "prefLabel": "Static text",
+    "description": "Display a static text",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "question": {
+        "en": "You are starting today's activity"
+    },
+    "ui": {
+        "inputType": "static",
+        "readonlyValue": true
+    }
+}

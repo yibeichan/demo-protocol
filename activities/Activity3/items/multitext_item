@@ -1,17 +1,16 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
     "@type": "reproschema:Field",
     "@id": "multitext_item",
     "prefLabel": "multitext item",
     "description": "This is a multitext item.",
-    "schemaVersion": "1.0.0-rc2",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "question": "This is an item where the user can input several text field.",
     "ui": {
         "inputType": "multitext"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
+        "valueType": "xsd:string"
     }
 }
