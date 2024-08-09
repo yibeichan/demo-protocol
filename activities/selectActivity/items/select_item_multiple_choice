@@ -27,6 +27,10 @@
             {
                 "name": "Response option 3",
                 "value": 2
+            },
+            {
+                "name": "Other",
+                "value": "Other"
             }
         ]
     }
