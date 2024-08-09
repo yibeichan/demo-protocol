@@ -57,9 +57,17 @@
                   "allow": [
                     "reproschema:Skipped"
                 ]
+                },
+                {"isAbout": "items/float_with_units_item",
+                "variableName": "float_unit_item",
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 }
         ],
         "order": [
+            "items/float_with_units_item",
             "items/integer_item",
             "items/float_item",
             "items/text_item",

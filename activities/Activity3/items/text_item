@@ -6,7 +6,7 @@
     "description": "This is a text item.",
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "This is an item where the user can input some text with a max length of 300.",
+    "question": "This is an item where the user can input some text.",
     "ui": {
         "inputType": "text"
     },
