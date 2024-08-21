@@ -3,24 +3,24 @@
     "@type": "reproschema:Activity",
     "@id": "siblingReferenceActivity_schema",
     "prefLabel": "Global Responses Reference Activity",
-    "description": "Demoes conditional visibility by referring to the global responses variable that stores all responses.",
-    "preamble": "Demoes conditional visibility by referring to the global responses variable that stores all responses. After answering the first question, the second question will be determined by referring to your first answer in the global responses object.",
+    "description": "Demonstrates conditional visibility by referring to the global responses variable that stores all responses.",
+    "preamble": "Demonstrates conditional visibility by referring to the global responses variable that stores all responses. After answering the first question, the second question will be determined by referring to your first answer in the global responses object.",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "activity/conditionalRefereeActivity_schema",
-                "variableName": "referee_item",
+                {"isAbout": "activities/conditionalRefereeActivity_schema",
+                "variableName": "referee",
                 "isVis": true
                 },
-                {"isAbout": "activity/conditionalRefererActivity_schema",
-                "variableName": "referer_item",
+                {"isAbout": "activities/conditionalRefererActivity_schema",
+                "variableName": "referer",
                 "isVis": true
                 }
         ],
         "order": [
-            "activity/conditionalRefereeActivity_schema",
-            "activity/conditionalRefererActivity_schema"
+            "activities/conditionalRefereeActivity_schema",
+            "activities/conditionalRefererActivity_schema"
         ],
         "shuffle": false,
         "allow": [
