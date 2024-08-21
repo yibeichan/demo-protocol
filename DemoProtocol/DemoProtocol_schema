@@ -45,6 +45,10 @@
             {"isAbout": "../activities/voiceActivity/voiceActivity_schema",
             "variableName": "voiceActivity_schema",
             "prefLabel": {"en": "Voice Activity" }
+            },
+            {"isAbout": "../activities/responsesReferenceActivity/responsesReferenceActivity_schema",
+            "variableName": "responsesReferenceActivity_schema",
+            "prefLabel": {"en": "Global Responses Reference Activity" }
             }
         ],
     "order": [
@@ -53,7 +57,8 @@
             "../activities/Activity3/Activity3_schema",
             "../activities/selectActivity/selectActivity_schema",
             "../activities/voiceActivity/voiceActivity_schema",
-            "../activities/Activity4/Activity4_schema"
+            "../activities/Activity4/Activity4_schema",
+            "../activities/responsesReferenceActivity/responsesReferenceActivity_schema"
         ],
 		"shuffle": false,
 		"allow": [
