@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Field",
+    "@id": "float_with_units_item",
+    "prefLabel": "float unit item",
+    "description": "This is a float item with a unit.",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "question": "This is an item where the user can input a float like 3.1415926... and a unit",
+    "ui": {
+        "inputType": "float"
+    },
+    "responseOptions": {
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {"en": "Celsius"},
+                "value": "C"
+            },
+            {
+                "prefLabel": {"en": "Fahrenheit"},
+                "value": "F"
+            }
+        ]
+    }
+}

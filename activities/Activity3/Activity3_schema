@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
     "@type": "reproschema:Activity",
     "@id": "Activity3_schema",
     "prefLabel": "demo of all input types and widgets",
     "description": "dummy activity to show all inputs types and widgets",
     "preamble": "This activity will show you all the different input type and widgets currently available.",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
@@ -57,9 +57,17 @@
                   "allow": [
                     "reproschema:Skipped"
                 ]
+                },
+                {"isAbout": "items/float_with_units_item",
+                "variableName": "float_unit_item",
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
                 }
         ],
         "order": [
+            "items/float_with_units_item",
             "items/integer_item",
             "items/float_item",
             "items/text_item",
