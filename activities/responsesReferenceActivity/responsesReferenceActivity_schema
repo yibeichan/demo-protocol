@@ -1,11 +1,11 @@
 {
-    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
     "@type": "reproschema:Activity",
-    "@id": "siblingReferenceActivity_schema",
+    "@id": "responseReferenceActivity_schema",
     "prefLabel": "Global Responses Reference Activity",
     "description": "Demonstrates conditional visibility by referring to the global responses variable that stores all responses.",
     "preamble": "Demonstrates conditional visibility by referring to the global responses variable that stores all responses. After answering the first question, the second question will be determined by referring to your first answer in the global responses object.",
-    "schemaVersion": "1.0.0-rc1",
+    "schemaVersion": "1.0.0",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
