@@ -1,0 +1,26 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Activity",
+    "@id": "conditionalRefereeActivity_schema",
+    "prefLabel": "Single Radio Button Activity",
+    "description": "Contains a single radio button item.",
+    "preamble": "Respond to this activity so that the conditional referer activity has a non-null value to reference.",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "../../selectActivity/items/radio_item",
+                "variableName": "radio_item",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "../../selectActivity/items/radio_item"
+        ],
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
+    }
+}

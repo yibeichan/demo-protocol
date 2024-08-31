@@ -1,0 +1,37 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Activity",
+    "@id": "conditionalRefererActivity_schema",
+    "prefLabel": "Sibling Reference Activity",
+    "description": "Demos conditional visibility by referring to the global responses variable that stores all responses.",
+    "preamble": "If you selected Response option 1 in the first question, you should see an email question. Otherwise, you should see a text entry question. If you see both or neither, something is broken.",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "../../Activity3/items/email_item",
+                "variableName": "email_item",
+                "isVis": "[0].includes(referee.radio_item)",
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+                {"isAbout": "../../Activity3/items/text_item",
+                "variableName": "text_item",
+                "isVis": "[1, 2].includes(referee.radio_item)",
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
+                }
+        ],
+        "order": [
+            "../../Activity3/items/email_item",
+            "../../Activity3/items/text_item"
+        ],
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
+    }
+}
