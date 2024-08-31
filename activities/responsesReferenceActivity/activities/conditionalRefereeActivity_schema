@@ -9,20 +9,12 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "../../Activity3/items/text_item",
-                "variableName": "text_item",
-                "isVis": true,
-                  "allow": [
-                    "reproschema:Skipped"
-                ]
-                },
                 {"isAbout": "../../selectActivity/items/radio_item",
                 "variableName": "radio_item",
                 "isVis": true
                 }
         ],
         "order": [
-            "../../Activity3/items/text_item",
             "../../selectActivity/items/radio_item"
         ],
         "shuffle": false,
