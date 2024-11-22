@@ -13,19 +13,28 @@
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 8,
+        "maxValue": 100,
+        "multipleChoice": false,
         "choices": [
             {
-                "name": "minLabel",
+                "name": "Response option 1",
                 "value": 0
             },
             {
-                "name": "midLabel",
-                "value": 1
+                "name": "Response option 2",
+                "value": 25
             },
             {
-                "name": "maxLabel",
-                "value": 2
+                "name": "Response option 3",
+                "value": 50
+            },
+            {
+                "name": "Response option 4",
+                "value": 75
+            },
+            {
+                "name": "Response option 5",
+                "value": 100
             }
         ]
     }
