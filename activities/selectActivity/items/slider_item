@@ -12,38 +12,7 @@
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 9,
-        "multipleChoice": false,
-        "choices": [
-            {
-                "name": " ",
-                "value": 0
-            },
-            {
-                "name": " ",
-                "value": 1
-            },
-            {
-                "name": " ",
-                "value": 2
-            },
-            {
-                "name": " ",
-                "value": 3
-            },
-            {
-                "name": " ",
-                "value": 4
-            },
-            {
-                "name": " ",
-                "value": 5
-            },
-            {
-                "name": " ",
-                "value": 6
-            }
-        ]
+        "min": 0,
+        "max": 9
     }
 }
