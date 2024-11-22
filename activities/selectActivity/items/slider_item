@@ -12,17 +12,19 @@
     },
     "responseOptions": {
         "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 8,
         "choices": [
             {
-                "name": " ",
+                "name": "minLabel",
                 "value": 0
             },
             {
-                "name": " ",
+                "name": "midLabel",
                 "value": 1
             },
             {
-                "name": " ",
+                "name": "maxLabel",
                 "value": 2
             }
         ]
