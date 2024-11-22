@@ -1,6 +1,6 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/yibeichan/demo-protocol/test-slider/DemoProtocol/DemoProtocol_schema',
+  githubSrc: 'http://localhost:8000/DemoProtocol/DemoProtocol_schemaa',
   banner: 'This is a demonstration protocol for ReproSchema.',
   startButton: 'Join',
   assetsPublicPath: '/demo-protocol/',
