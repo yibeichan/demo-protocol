@@ -27,6 +27,14 @@
             {
                 "name": "Response option 3",
                 "value": 2
+            },
+            {
+                "name": "Response option 4",
+                "value": 3
+            },
+            {
+                "name": "Response option 5",
+                "value": 4
             }
         ]
     }
