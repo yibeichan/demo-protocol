@@ -37,8 +37,15 @@
                     "reproschema:Skipped"
                 ]
                 },
-                {"isAbout": "items/slider_item",
-                "variableName": "slider_item",
+                {"isAbout": "items/slider_item_with_max",
+                "variableName": "slider_item_with_max",
+                "isVis": true,
+                  "allow": [
+                    "reproschema:Skipped"
+                ]
+                },
+                {"isAbout": "items/slider_item_without_max",
+                "variableName": "slider_item_without_max",
                 "isVis": true,
                   "allow": [
                     "reproschema:Skipped"
@@ -50,7 +57,8 @@
             "items/radio_item_multiple_choice",
             "items/select_item",
             "items/select_item_multiple_choice",
-            "items/slider_item"
+            "items/slider_item_with_max",
+            "items/slider_item_without_max"
         ],
         "shuffle": false,
         "allow": [
