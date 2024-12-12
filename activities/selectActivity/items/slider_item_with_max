@@ -1,0 +1,41 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
+    "@type": "reproschema:Field",
+    "@id": "slider_item_with_max",
+    "prefLabel": "slider item with max value",
+    "description": "This is a slider item with max value.",
+    "schemaVersion": "1.0.0",
+    "version": "0.0.1",
+    "question": "This is an example of a slider item with max value.",
+    "ui": {
+        "inputType": "slider"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 100,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "Response option 1",
+                "value": 0
+            },
+            {
+                "name": "Response option 2",
+                "value": 25
+            },
+            {
+                "name": "Response option 3",
+                "value": 50
+            },
+            {
+                "name": "Response option 4",
+                "value": 75
+            },
+            {
+                "name": "Response option 5",
+                "value": 100
+            }
+        ]
+    }
+}
