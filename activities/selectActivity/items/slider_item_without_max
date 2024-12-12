@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0/contexts/reproschema",
     "@type": "reproschema:Field",
-    "@id": "slider_item",
-    "prefLabel": "slider item",
-    "description": "This is a slider item.",
+    "@id": "slider_item_without_max",
+    "prefLabel": "slider item without max",
+    "description": "This is a slider item without max value.",
     "schemaVersion": "1.0.0",
     "version": "0.0.1",
-    "question": "This is an example of a slider item.",
+    "question": "This is an example of a slider item without max value.",
     "ui": {
         "inputType": "slider"
     },
